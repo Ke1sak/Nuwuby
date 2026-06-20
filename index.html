@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+s<script src="main.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>nuwuby.zip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Folder.css">
+</head>t
+<body>
+ <main class="folder-container">
+    <div class="folder-tab">nuwuby.zip</div>
+    <div class="folder-body">
+        <!-- Contenedores vacíos esperando el texto de la terminal -->
+        <p class="archive" id="line1"></p>
+        <div class="status">
+            <div id="line2"></div>
+            <div id="line3"></div>
+            <div id="line4"></div>
+        </div>
+        <p class="label" id="line5"></p>
+        <p class="quote" id="line6"></p>
+        <p class="warning" id="line7"></p>
+        
+        <!-- Focas ocultas al inicio (opacity: 0) -->
+        <div class="seals" id="seals-container" style="opacity: 0; transition: opacity 1.5s ease;">
+            <!-- SoundCloud -->
+            <a href="https://soundcloud.com/nuggiesuwu-514264551" class="seal-link" aria-label="SoundCloud" target="_blank">
+                <img src="/Imagenes/NuwubyMusic.png" alt="Música" class="seal-icon">
+                <span class="seal-tip">SoundCloud</span>
+            </a>
+            <!-- Sobre Mí -->
+            <a href="https://nuggiesuwu.carrd.co/#section02" class="seal-link" aria-label="Sobre Mí" target="_blank">
+                <img src="/Imagenes/NuwubySealSparkles.png" alt="Brillos" class="seal-icon">
+                <span class="seal-tip">Sobre Mí</span>
+            </a>
+            <!-- Enojo -->
+            <a href="#" class="seal-link" aria-label="Enojo">
+                <img src="/Imagenes/AngryNuwubySeal.png" alt="Enojo" class="seal-icon">
+                <span class="seal-tip">Enojo</span>
+            </a>
+            <!-- Kofi -->
+            <a href="https://ko-fi.com/nuggiesuwu" class="seal-link" aria-label="Kofi" target="_blank">
+                <img src="/Imagenes/NuwubySealKoFi.png" alt="Cariño" class="seal-icon">
+                <span class="seal-tip">Kofi</span>
+            </a>
+        </div>
+    </div>
+</main>
+<video autoplay loop muted playsinline id="miVideo">
+        <source src="/Videos/Rain Background.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+</body>
+</html>
